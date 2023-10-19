@@ -1,0 +1,76 @@
+.navigasion button{
+    font-size: 2em;
+    margin-left: 0.5em;
+
+}
+
+.text{
+    margin-top: 50vh;
+    display: flex;
+    justify-content: flex-end;
+    width: 70vw;
+    height: 40vh;
+    background-color: none;
+    border: 1em solid rgb(255, 255, 255);
+    text-align: center;
+    border-top-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+}
+
+.text .p1{
+    font-family: serif;
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
+}
+.text .p2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    font-size: 2vw;
+    color: white;
+}
+.container{ 
+    background-color: rgb(207, 239, 246);
+    display: flex;
+    height: 45vh;
+    width: 70vw;
+    border:none;
+    border-top-left-radius: 10vw;
+    border-bottom-left-radius: 10vw;
+    align-items: center;
+    transform: translate(29.8vw,10vh);
+}
+
+.container button {
+    border: 0.1em solid;
+    background:url('rab.png');
+    background-size: cover;
+    background-position: center;
+    font-size: 7vh;
+    margin-left: 4vw;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    height: 30vh;
+    width: 30vh;
+    text-decoration: none;
+}
+.container a{
+    font-size: 4vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+.container button img{
+    height: 2em;
+    width: 2em;
+}
+.footer{
+    position: relative;
+    top: 100%;
+    background-color: darkgray;
+    height: 30vh;
+    background-color: rgb(207, 239, 246);
+    text-align: center;
+}
+.footer p{
+    color: black;
+}

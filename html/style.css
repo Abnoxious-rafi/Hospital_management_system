@@ -1,0 +1,107 @@
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: #FBFCEA black;
+    }
+    html::-webkit-scrollbar{
+    width: 0.5vw;
+    }
+    html::-webkit-scrollbar-thumb{
+    background-color: #FBFCEA;
+    }
+    html::-webkit-scrollbar-track{
+    background-color: black;
+    }
+    header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom:  30px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: transparent;
+    }
+    h1{
+    font-size: 4em;
+    background-color: none;
+    user-select: none;
+    padding-left: 50px;
+    }
+    body{
+      margin-left: 0;
+        margin-top: 0;
+    position: relative;
+    height: 100vw;
+    width: 100%;
+    animation: changebg 10s infinite linear ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+    @keyframes changebg {
+        0%{
+            background-color: #1D97FD;
+        }
+        10%{
+            background-color: #3A5AF2;
+        }
+        20%{
+            background-color: #4406E7;
+        }
+        30%{
+            background-color: #4D00DC;
+        }
+        40%{
+            background-color: #5900CA;
+        }
+        50%{
+            background-color: #6200BD;
+        }
+        60%{
+            background-color: #5900CA;
+        }
+        70%{
+            background-color: #4D00DC;
+        }
+        80%{
+            background-color: #4406E7;
+        }
+        90%{
+            background-color: #3A5AF2;
+        }
+        100%{
+            background-color: #1D97FD;
+        }
+    }
+    
+    .navigasion a {
+    position: relative;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration:none;
+    font-weight: 500px;
+    margin-left: 40px;
+    }
+    .navigasion a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:100%;
+    height:3px;
+    background:#fff;
+    transform-origin:right;
+    transform:scaleX(0);
+    transition:transform .5s;
+    }
+    
+    .navigasion a:hover::after {
+    transform-origin:left;
+    transform:scaleX(1);
+    }
+    
+    

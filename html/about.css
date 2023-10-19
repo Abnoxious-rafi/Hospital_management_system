@@ -1,0 +1,78 @@
+.Ab{
+    margin-top:30vh;
+    margin-left: 5vw;
+    height: 35vh;
+    width: 80vw;
+    transition: 1s;
+   
+}
+.Ab:hover{
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 0vw 0vh 60px white;
+}
+.Ab h2{
+    font-size: 4vw;
+    float: left;
+}
+.Ab p{
+    font-size: 2vw;
+}
+.team{
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    width: 100%;
+    transform: translate(0vw,10vh);
+    display: grid;
+    justify-items: center;
+}
+.team h2{
+    height: fit-content;
+    color: black;
+    font-size: 2vw;
+}
+.team .people{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    
+}
+.team .people #a{
+    height: 37vh;
+    width: 15vw;
+    background-color: black;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+.team .people #a:hover{
+    transform: scale(1.1);
+    box-shadow: 0vh 0vw 50px black;
+}
+.team .people #a .footer{
+    position: absolute;
+    bottom: 1vh;
+    height: 9vh;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+}
+.rafi{
+    background: url('p_rafi.jpg');
+}
+.bristi{
+    background: url('p_bristi.jpg');
+}
+.luni{
+    background: url('p_luni.jpg');
+}
+.jame{
+    background: url('p_jame.jpg');
+}
+.fariha{
+    background: url('p_fariya.jpg');
+}
